@@ -1,0 +1,22 @@
+# Build Essentials
+setuptools
+wheel
+pip>=24.0
+
+# AI Frameworks
+tensorflow>=2.16.1
+ultralytics>=8.1.0
+opencv-python-headless
+numpy # Standard numpy for TF compatibility
+
+# Segmentation (Implmented custom MobileNetV2 U-Net in scripts/train_unet.py)
+# TFLite & Conversion
+onnx2tf[tensorflow]
+onnx
+tf2onnx
+
+# Utils
+matplotlib
+pandas
+pyyaml
+scikit-learn

@@ -1,0 +1,7 @@
+
+path: C:\Users\avina\Desktop\mini project\brain\data
+train: images/train
+val: images/val
+names:
+  0: Corrosion
+  1: Seepage
